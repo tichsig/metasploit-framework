@@ -13,7 +13,7 @@ group :development do
   # Markdown formatting for yard
   gem 'redcarpet'
   # generating documentation
-  gem 'yard'
+  gem 'yard', '>= 0.9.29'
   # for development and testing purposes
   # lock to version with 2.6 support until project updates
   gem 'pry-byebug', "~> 3.9.0"
